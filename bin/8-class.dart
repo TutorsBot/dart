@@ -1,6 +1,25 @@
 // Defining the Class
 
 void main(){
+//       var car1  = new Car();
+//       print(car1.Brand);
+//       print(car1.Model);
+//       car1.driving();
+
+//       var car2 = Car();
+//       car2.driving();
+
+    // var Honda  = Car("Honda", "city");
+    // print(Honda.Brand);
+    // print(Honda.Model);
+
+
+    // var Suzuki = Car("Suzuki", "Breeza");
+  
+
+
+
+
     // final obj1 = new NewClass();
     // final obj1 = NewClass();
   // print(obj1.newProperty); //Properties
@@ -51,6 +70,30 @@ void main(){
   // print(a);
 
 }
+// Syntax for the Class
+// class Car{
+//   var Brand = "Some Brand";
+//   var Model = "Some Model";
+//   driving(){
+//     print("driving");
+//   }
+// }
+
+// var Brand = "sample brand";
+// var Model = "sample car";
+
+// class Car{
+//   // Constructor
+//   Car(brand, model){
+//     this.Brand = brand;
+//     this.Model = model;
+//   }
+//   var Brand = "Some Brand";
+//   var Model = "Some Model";
+//   driving(){
+//     print("driving");
+//   }
+// }
 
 
 
@@ -61,7 +104,6 @@ void main(){
 //     print("Hello Method");
 //   }
 // }
-
 
 // class Address{
 //   var value = '';
@@ -76,7 +118,7 @@ void main(){
 // Custom Constructor
 
 
-// Long Hand Constructor
+// // Long Hand Constructor
 // class Address{
 //   Address(int no, String streetName){
 //     this.no = no;
@@ -165,12 +207,12 @@ void main(){
 // }
 
 
-class SomeClass{
-  static int myProperty = 0;
-  static void myMethod(){
-    print("Hello Property");
-  }
-}
+// class SomeClass{
+//   static int myProperty = 0;
+//   static void myMethod(){
+//     print("Hello Property");
+//   }
+// }
 
 
 

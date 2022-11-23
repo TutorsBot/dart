@@ -5,7 +5,7 @@ void main(){
   // Parameters or Arguments or Input
   // Return or Output
  
-
+  
 
   // Function Invoke or Call for simple fucntion
   // sampleFunc();
@@ -49,6 +49,8 @@ void main(){
 
   // var sf = returnasFunc();
   // sf("Fazlur");
+
+  Car().brand;
 }
 
 // Function Definition - Function Name as SampleFunc
@@ -162,3 +164,11 @@ void main(){
 // Function returnasFunc(){
 //   return (a)=>print(a);
 // }
+
+Car(){
+  var brand = "Some Brand";
+  var model = "Some Model";
+  driving(){
+    print("driving");
+  }
+}
