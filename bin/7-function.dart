@@ -44,14 +44,11 @@ void main(){
    
   //  sf("Fazlur",  title : "Mr", last : "Rahman");
 
-  // funcAsFunc((){
-  //   print("Anonymous Function");
-  // });
+  // funcAsFunc(()=>print("Anonymous Function"));
+
 
   // var sf = returnasFunc();
-  // sf();
-
-
+  // sf("Fazlur");
 }
 
 // Function Definition - Function Name as SampleFunc
@@ -132,44 +129,36 @@ void main(){
 
 
 
-
 // Anonymous Function
+// (){}
 
-// (){
-
-// }
-
-// (String firstname, {String last ='', String title = "MR"}){
-//   print('$title. $firstname $last');
-// }
-
-
-// ()=>{
-
-// }
+// arrow function
+// ()=>{} 
 
 // Arrow Function
 // (a)=>print(a)
 
 // Assigning the Function to the variables
 
-// var sf = (String firstname, {String last ='', String title = "MR"}){
-//   print('$title. $firstname $last');
+// var sf = (String firstname){
+//   print(firstname);
 // };
 
 
 // Pass Function as the Function Parameter
 
 // void funcAsFunc(Function anoFunc){
-//   print("Function as Parameters to the Functions");
+//   print("Function as Parameters to this Functions");
 //       anoFunc();
+//       // Callback function
 // }
 
 // Function is return a Function
 
 // Function returnasFunc(){
-//   return (){
-//     print("function is returned");
-//   };
+//   return ()=>print("function returned");
 // }
 
+// Function returnasFunc(){
+//   return (a)=>print(a);
+// }
